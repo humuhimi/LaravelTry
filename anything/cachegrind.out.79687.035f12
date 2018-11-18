@@ -1,0 +1,104 @@
+version: 1
+creator: xdebug 2.6.1 (PHP 7.2.11)
+cmd: /Users/humu/.vscode/extensions/felixfbecker.php-intellisense-2.3.5/vendor/felixfbecker/language-server/bin/php-language-server.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1)
+fn=(109) php::ErrorException->getTraceAsString
+31 46 4096
+
+fl=(1)
+fn=(110) php::ErrorException->__toString
+31 196 0
+cfl=(1)
+cfn=(109)
+calls=1 0 0
+31 46 4096
+
+fl=(1)
+fn=(40)
+23 2 40
+
+fl=(1)
+fn=(54)
+23 0 40
+
+fl=(1)
+fn=(35)
+20 0 0
+
+fl=(1)
+fn=(103)
+24 4 96
+
+fl=(16)
+fn=(36)
+19 268 6760
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+20 0 0
+cfl=(1)
+cfn=(103)
+calls=1 0 0
+24 4 96
+
+fl=(1)
+fn=(55)
+23 85 1112
+cfl=(16)
+cfn=(36)
+calls=1 0 0
+23 273 6856
+
+fl=(15)
+fn=(56)
+20 175 2480
+cfl=(1)
+cfn=(40)
+calls=1 0 0
+23 2 40
+cfl=(1)
+cfn=(54)
+calls=1 0 0
+23 0 40
+cfl=(1)
+cfn=(55)
+calls=1 0 0
+23 359 7968
+
+fl=(14)
+fn=(111) LanguageServer\StderrLogger->critical
+53 100 0
+cfl=(15)
+cfn=(56)
+calls=1 0 0
+55 538 10528
+
+fl=(16)
+fn=(112) {closure:/Users/humu/.vscode/extensions/felixfbecker.php-intellisense-2.3.5/vendor/felixfbecker/language-server/bin/php-language-server.php:30-32}
+30 252 0
+cfl=(1)
+cfn=(110)
+calls=1 0 0
+31 243 4096
+cfl=(14)
+cfn=(111)
+calls=1 0 0
+31 638 10528
+
+fl=(1)
+fn=(109)
+1 6 4096
+
+fl=(1)
+fn=(110)
+1 67 0
+cfl=(1)
+cfn=(109)
+calls=1 0 0
+0 6 4096
+

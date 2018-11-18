@@ -1,0 +1,31 @@
+version: 1
+creator: xdebug 2.6.1 (PHP 7.2.11)
+cmd: Command line code
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(1) php:internal
+fn=(1) php::realpath
+1 93 80
+
+fl=(1)
+fn=(2) php::dirname
+1 2 80
+
+fl=(2) Command line code
+fn=(3) {main}
+
+summary: 385 32
+
+1 289 -128
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+1 93 80
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1 2 80
+

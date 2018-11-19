@@ -55,7 +55,7 @@ class PostsController extends Controller
     //   ]);
     // dd(request()->all());
     //   $post->save();
-      return redirect('/');
+      return redirect('/posts');
 
     }
 

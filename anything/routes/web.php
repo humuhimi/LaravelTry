@@ -19,7 +19,8 @@
 
 Route::get('/posts','PostsController@index')->name('home');
 
-Route::get('/posts/{post}','PostsController@show');
+Route::get('/posts/1','PostsController@show');
+// 上のルートと下のルートで何かしらのバグがあるから　確認すること ルータでintを指定してあげるのがいいかも
 
 Route::get('/posts/create','PostsController@create');
 
